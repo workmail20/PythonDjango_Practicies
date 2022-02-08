@@ -1,0 +1,2 @@
+# PythonDjango_Practicies
+ PythonDjango_Practicies

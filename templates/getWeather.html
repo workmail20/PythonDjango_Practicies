@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get weather for you country</title>
+</head>
+<body>
+<p>Hello {{client_ip}}</p>
+<p>Please entry full city name (Kiev,Moscow):</p>
+<form action="/showWeather" name="confirmationForm" method="post">
+    {% csrf_token %}
+  <textarea id="showWeather" class="text" cols="86" rows ="20" name="cityWeather"></textarea><br>
+  <input type="submit" value="sendWeather" class="submitButton">
+</form>
+</body>
+</html>
